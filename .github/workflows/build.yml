@@ -27,7 +27,7 @@ jobs:
     needs: build
 
     steps:
-      - name: checkout repository code
+      - name: checkout repository cod
         uses: actions/checkout@v3
 
       - name: test

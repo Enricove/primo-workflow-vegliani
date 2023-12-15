@@ -13,5 +13,10 @@ jobs:
         uses: actions/setup-node@v3
         with: 
           node-version: 18.x
-      - name: run build
+      - name: install npm
+        run: npm install
+
+      - name: run with npm
         run: npm run build
+
+      - 

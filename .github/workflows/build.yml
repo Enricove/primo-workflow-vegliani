@@ -30,6 +30,9 @@ jobs:
       - name: checkout repository cod
         uses: actions/checkout@v3
 
+      - name: npm install
+        run: npm intstall
+
       - name: test
         run: npm run test
         
